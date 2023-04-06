@@ -53,7 +53,7 @@ public struct WysiwygComposerAttributedContent {
     /// - Parameters:
     ///   - text: Attributed string representation of the displayed text.
     ///   - selection: Range of the selected text within the attributed representation.
-    init(text: NSAttributedString = .init(string: ""),
+    public init(text: NSAttributedString = .init(string: ""),
          selection: NSRange = .zero) {
         self.text = text
         self.selection = selection
