@@ -112,14 +112,14 @@ public class WysiwygComposerViewModel: WysiwygComposerViewModelProtocol, Observa
 
     // MARK: - Private
 
-    private var model: ComposerModel
-    private var cancellables = Set<AnyCancellable>()
-    private var defaultTextAttributes: [NSAttributedString.Key: Any] {
+    public var model: ComposerModel
+    public var cancellables = Set<AnyCancellable>()
+    public var defaultTextAttributes: [NSAttributedString.Key: Any] {
         [.font: UIFont.preferredFont(forTextStyle: .body),
          .foregroundColor: textColor]
     }
 
-    private var hasPendingFormats = false
+    public var hasPendingFormats = false
 
     // MARK: - Public
 
