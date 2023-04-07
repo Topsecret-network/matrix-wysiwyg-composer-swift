@@ -328,7 +328,7 @@ public extension WysiwygComposerViewModel {
 
 // MARK: - Private
 
-private extension WysiwygComposerViewModel {
+public extension WysiwygComposerViewModel {
     func updateTextView() {
         didUpdateText()
     }
