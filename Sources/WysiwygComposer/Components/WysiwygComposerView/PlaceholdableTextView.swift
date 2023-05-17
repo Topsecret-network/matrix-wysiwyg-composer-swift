@@ -23,7 +23,7 @@ public class PlaceholdableTextView: UITextView {
         }
     }
     
-    var placeholder: String? {
+    public var placeholder: String? {
         didSet {
             setNeedsDisplay()
         }

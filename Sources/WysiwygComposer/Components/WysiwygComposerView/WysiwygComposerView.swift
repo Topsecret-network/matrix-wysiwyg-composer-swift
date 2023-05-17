@@ -108,6 +108,7 @@ public struct WysiwygComposerView: UIViewRepresentable {
                 ],
                 functionName: #function
             )
+            print("textViewDidChange ---- \(textView.text)")
             didUpdateText()
         }
 
